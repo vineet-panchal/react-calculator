@@ -1,0 +1,73 @@
+.title {
+  font-family: digital;
+  color: orange;
+}
+
+.calculator {
+  border: 3px solid black;
+  padding: 5px;
+  background-color: black;
+  width: 320px;
+  position: relative;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.formula-screen {
+  min-height: 30px;
+  font-family: digital;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.output-screen {
+  font-size: 29px;
+  font-family: digital;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+  min-height: 30px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 2px solid black;
+  border: none;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+button:hover {
+  color: black;
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
+
+#seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #zero, #decimal {
+  background-color: rgb(46, 46, 46);
+}
+
+#divide, #multiply, #subtract, #add, #equals {
+  background-color: orange;
+}
+
+#clear {
+  background-color: maroon;
+}
+
+.horizontal-btn {
+  width: 160px;
+}
+
+
